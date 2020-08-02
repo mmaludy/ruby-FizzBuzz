@@ -1,6 +1,11 @@
 # FizzBuzz in Ruby
-- A simple application created 100% in Ruby (with the use of lazy enumerator)
-- The user decides how many numbers to check
-- When the number is divisible by 3: Fizz
-- When the number is divisible by 5: Buzz
-- When the number is divisible by 15: FizzBuzz
+FizzBuzz is a simply game that has gained in popularity as a programming assignment to weed out non-programmers during job interviews.
+Created 100% in Ruby (with the use of lazy enumerator).
+
+Rules:
+For numbers 1 through (usually) 100,
+
+- if the number is divisible by 3 print Fizz;
+- if the number is divisible by 5 print Buzz;
+- if the number is divisible by 3 and 5 (15) print FizzBuzz;
+- else, print the number.
